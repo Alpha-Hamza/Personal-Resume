@@ -34,7 +34,7 @@ export default function TopSection() {
         <div>
           <div className="flex   ">
             {/* <img src="./Images/Hi2.png" alt=" " className=" " /> */}
-
+            
             <img src="./Images/Hi.png" alt=" " className="" />
           </div>
         </div>
