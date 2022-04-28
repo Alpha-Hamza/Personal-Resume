@@ -3,24 +3,41 @@ import Header from "./Header";
 
 export default function TopSection() {
   return (
-    <div className=" mx-auto container flex  ">
-      <div className="w-[50%]  ">
-        <img src="./Images/Logo.svg" alt=" " className="mt-[44px] " />
-        <div className="w-[515px] mt-[145px]">
-          <h1 className="text-[128px]   leading-[142.08px] tracking-[-3%] ">
-          Creative
+    <div className=" mx-auto container  ">
+      <Header />
+      <div className="flex space-x-[286px] mt-[126px]">
+        <div className="w-[558px]  ml-[5%]">
+          <h1 className="text-[20px] ">
+            Hola! I’m <br />
+            <span className="text-[32px] font-bold text-[#FD5956] leading-[70px] ">
+              Abrar Ahmed
+            </span>
           </h1>
-          <p className="text-[28px] font-normal mt-[82px]  text-[#1A202C] leading-[40px] tracking-[-1%]">
-            The next big thing starts here. Get Prodify and be the first to
-            market with an integrated product that you love
+          <h1 className="text-[100px] leading-0">Creative</h1>
+          <h1 className="text-[100px] text-right leading-0">
+            Designer<span className=" text-[#FD5956]">.</span>
+          </h1>
+          <p className="mt-[12px]">
+            Since creative designers often interact with creative teams,
+            managers and clients, they need strong communication skills.
           </p>
-          <button className="w-full h-[72px] bg-[#E55278] hover:bg-[#D53F8C] text-[28px] font-bold text-white rounded-[6px] mt-[43px]">
-            Let’s Build
+          <div className="flex  space-x-[45px] mt-[35px]">
+            <img src="./Images/Fi1.svg" alt=" " className="" />
+            <img src="./Images/Fi2.svg" alt=" " className="" />
+            <img src="./Images/Fi3.svg" alt=" " className="" />
+            <img src="./Images/Fi4.svg" alt=" " className="" />
+          </div>
+          <button className=" mt-[33px] relative  cursor-pointer bg-[#FD5956]  hover:bg-white  hover:bg-opacity-[20%] w-[188px] h-[52px]    font-semibold text-[#FFFEFD] text-[18px] ">
+            CV Here
           </button>
         </div>
-      </div>
-      <div className="w-[50%]   ">
-        <Header />
+        <div>
+          <div className="flex   ">
+            {/* <img src="./Images/Hi2.png" alt=" " className=" " /> */}
+
+            <img src="./Images/Hi.png" alt=" " className="" />
+          </div>
+        </div>
       </div>
     </div>
   );

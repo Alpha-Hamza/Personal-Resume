@@ -14,13 +14,14 @@ export default function Footer() {
       </p>
       <img src="./Images/Flogo.svg" alt=" " className="mt-[120px] mx-auto" />
       <div className="flex justify-center space-x-[45px] mt-[114px]">
-      <img src="./Images/Fi1.svg" alt=" " className="" />
-      <img src="./Images/Fi2.svg" alt=" " className="" />
-      <img src="./Images/Fi3.svg" alt=" " className="" />
-      <img src="./Images/Fi4.svg" alt=" " className="" />
-
+        <img src="./Images/Fi1.svg" alt=" " className="" />
+        <img src="./Images/Fi2.svg" alt=" " className="" />
+        <img src="./Images/Fi3.svg" alt=" " className="" />
+        <img src="./Images/Fi4.svg" alt=" " className="" />
       </div>
-      <p className="text-[20px] text-center mt-[66px]">© 2021 AbbVie Inc. . All rights reserved</p>
+      <p className="text-[20px] text-center mt-[66px]">
+        © 2021 AbbVie Inc. . All rights reserved
+      </p>
     </div>
   );
 }

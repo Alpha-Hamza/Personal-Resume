@@ -14,10 +14,9 @@ export default function Fourth() {
         <img src="./Images/Fthi1.svg" alt=" " className="" />
         <img src="./Images/Fthi2.svg" alt=" " className="" />
         <img src="./Images/Fthi3.svg" alt=" " className="" />
-        
       </div>
       <div className="  flex  justify-center space-x-[155px] mt-[98px] ">
-      <img src="./Images/Fthi4.svg" alt=" " className="" />
+        <img src="./Images/Fthi4.svg" alt=" " className="" />
         <img src="./Images/Fthi5.svg" alt=" " className="" />
       </div>
     </div>
