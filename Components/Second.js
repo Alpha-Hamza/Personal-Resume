@@ -3,8 +3,8 @@
 
 export default function Second() {
   return (
-    <div className=" mt-[155px] relative ">
-      <div className="mx-auto container">
+    <div className=" mt-[155px] relative   ">
+      <div className="mx-auto container 2xl:w-full w-[90%]  ">
         <h1 className="text-[65px] text-center">
           About me<span className="text-[#FD5956]">.</span>
         </h1>
